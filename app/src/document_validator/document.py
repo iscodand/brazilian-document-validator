@@ -1,5 +1,5 @@
-from cnpj_validator import CNPJValidator
-from cpf_validator import CPFValidator
+from document_validator.cnpj_validator import CNPJValidator
+from document_validator.cpf_validator import CPFValidator
 
 
 class Document:

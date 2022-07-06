@@ -1,14 +1,7 @@
-from document import Document
+from phonenumber_validator.number import Number
+from document_validator.document import Document
 
+number = Number.create_number(99985296891)
+number2 = Number.create_number(9985296891)
 
-cpf = '05613136360'
-
-cpf_object = Document.create_document(cpf)
-
-print(cpf_object)
-
-cnpj = '05555382000133'
-
-cnpj_object = Document.create_document(cnpj)
-
-print(cnpj_object)
+print(number, number2)
