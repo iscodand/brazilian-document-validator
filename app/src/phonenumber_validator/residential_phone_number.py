@@ -14,7 +14,7 @@ class ResidentialPhoneNumber():
         return self.mask()
 
     def validate(self, number):
-        pattern = r"[1-9]{2,3}?[1-9]{2}9[0-9]{4}[0-9]{4}"
+        pattern = "[1-9]{2}9[0-9]{4}[0-9]{4}"
         answer = re.findall(pattern, number)
         if answer:
             return True 

@@ -14,7 +14,7 @@ class LandlineNumber():
         return self.mask()
 
     def validate(self, number):
-        pattern = r"[1-9]{2}[1-9]{4}[1-9]{4}"
+        pattern = "[1-9]{2}[1-9]{4}[1-9]{4}"
         answer = re.findall(pattern, number)
         if answer:
             return True
