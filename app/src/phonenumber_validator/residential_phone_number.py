@@ -1,7 +1,7 @@
 import re
 
 
-class ResidentialPhoneNumber():
+class ResidentialNumber():
     def __init__(self, number):
         number = str(number)
 
