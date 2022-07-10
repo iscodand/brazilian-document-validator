@@ -2,6 +2,7 @@ from document_validator.cnpj_validator import CNPJValidator
 from document_validator.cpf_validator import CPFValidator
 
 
+# Factory Pattern Project
 class Document:
 
     @staticmethod
