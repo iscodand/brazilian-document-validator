@@ -7,8 +7,6 @@
 <h3> ✔️ Techniques and Technologies ✔️ </h3>
 
 - ``Python 3.10.4``
-- ``Tkinter 8.5``
-- ``SV_TTK Theme``
 - ``Visual Studio Code``
 - ``Object Oriented Programming``
 
