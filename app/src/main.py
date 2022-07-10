@@ -1,12 +1,9 @@
 from phonenumber_validator.number import Number
 from document_validator.document import Document
 from datetime_validator.datetime_br import DateTimeBR
+from cep_validator.cep_validator import CEPValidator
+import requests
 
+cep = CEPValidator(65700000)
 
-register = DateTimeBR()
-
-print(register.register_moment)
-print(register.register_month())
-print(register.register_weekday())
-print(register)
-print(register.register_time())
+print(cep.information())
