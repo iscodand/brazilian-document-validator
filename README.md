@@ -29,12 +29,27 @@ Made with Python and some libraries and API's, the project is made together with
 It can verify and validate your CPF or CNPJ, CEP and Telephone Number, in addition to formatting dates.
 
 ## Tech Stack
-<img src="https://img.shields.io/badge/Git-05122A?style=flat&logo=git" alt="git Badge" height="25">&nbsp;
-<img src="https://img.shields.io/badge/Python-05122A?style=flat&logo=python" alt="python Badge" height="25">&nbsp;
+![Stacks](https://skillicons.dev/icons?i=py,vscode,git&theme=dark)
 
 ``Factory Project Pattern``
 ``Object Oriented Programming``
-``Visual Studio Code``
+``Clean Code Practices``
+
+## Installation
+To Install this project, follow the steps above:
+```bash
+# Clone this repository
+$ git clone https://github.com/iscodand/brazilian-document-validator/
+                        
+# Create a virtual environment (optional but recommended):
+$ python -m venv venv
+                        
+# Activating the virtual environment:
+$ ./venv/Scripts/Activate.ps1
+                        
+# Install requirements:
+$ pip install -r requirements.txt
+```
 
 ## Contributing
 
